@@ -9,5 +9,8 @@
   "block.modone.deepslate_mythril_ore":"Deepslate Mythril Ore",
   "block.modone.raw_mythril_block":"Raw Mythril Block",
 
-  "itemGroup.modone.mythril":  "Mythril Tab"
+  "itemGroup.modone.mythril":  "Mythril Tab",
+
+  "item.modone.dowsing_rod": "Dowsing Rod",
+  "item.modone.dowsing_rod.no_valuables": "No valuables found, Sucker!"
 }
