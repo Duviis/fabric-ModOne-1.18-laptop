@@ -2,15 +2,17 @@
   "item.modone.mythril_ingot":"Mythril Ingot",
   "item.modone.mythril_nugget":"Mythril Nugget",
   "item.modone.raw_mithril":"Raw Mythril",
+  "item.modone.dowsing_rod": "Dowsing Rod",
+  "item.modone.lilac_flower_bulb": "Lilac FlowerBulb",
 
   "block.modone.mythril_block":"Mythril Block",
   "block.modone.mythril_ore":"Mythril Ore",
   "block.modone.netherrack_mythril_ore":"Netherrack Mythril Ore",
   "block.modone.deepslate_mythril_ore":"Deepslate Mythril Ore",
   "block.modone.raw_mythril_block":"Raw Mythril Block",
+  "block.modone.speedy_block": "Speedy Block",
 
   "itemGroup.modone.mythril":  "Mythril Tab",
 
-  "item.modone.dowsing_rod": "Dowsing Rod",
   "item.modone.dowsing_rod.no_valuables": "No valuables found, Sucker!"
 }

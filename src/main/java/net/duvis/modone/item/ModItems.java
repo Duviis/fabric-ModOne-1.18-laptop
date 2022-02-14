@@ -20,7 +20,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
 
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
-            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.MYTHRIL).maxDamage(64)));
+            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.MYTHRIL).maxDamage(16)));
+
+    public static final Item LILAC_FLOWER_BULB = registerItem("lilac_flower_bulb",
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
 
     private static Item registerItem(String name,Item item) {
         return Registry.register(Registry.ITEM, new Identifier(ModOne.MOD_ID, name), item);
