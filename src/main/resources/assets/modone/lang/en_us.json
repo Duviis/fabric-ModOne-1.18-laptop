@@ -13,7 +13,16 @@
   "block.modone.raw_mythril_block":"Raw Mythril Block",
   "block.modone.speedy_block": "Speedy Block",
 
+  "block.modone.mythril_button": "Mythril Button",
+  "block.modone.mythril_pressure_plate": "Mythril Pressure Plate",
+  "block.modone.mythril_fence": "Mythril Fence",
+  "block.modone.mythril_fence_gate": "Mythril Fence Gate",
+  "block.modone.mythril_wall": "Mythril Wall",
+
   "itemGroup.modone.mythril":  "Mythril Tab",
 
-  "item.modone.dowsing_rod.no_valuables": "No valuables found, Sucker!"
+  "item.modone.dowsing_rod.no_valuables": "No valuables found, Sucker!",
+  "item.modone.dowsing_rod.tooltip.shift": "Right Click to find valuables",
+  "item.modone.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
+  "tooltip.modone.mythril_block": "A Magical Block"
 }
