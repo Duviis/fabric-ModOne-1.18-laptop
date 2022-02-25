@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "modone:block/mythril_block",
+    "top": "modone:block/mythril_block",
+    "side": "modone:block/mythril_block"
+  }
+}

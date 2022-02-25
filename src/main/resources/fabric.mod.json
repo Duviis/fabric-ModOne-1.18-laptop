@@ -20,6 +20,10 @@
   "entrypoints": {
     "main": [
       "net.duvis.modone.ModOne"
+    ],
+
+    "Client": [
+      "net.duvis.modone.ModOneClientMod"
     ]
   },
   "mixins": [

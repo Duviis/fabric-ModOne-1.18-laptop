@@ -1,10 +1,8 @@
 package net.duvis.modone.block;
 
-import net.duvis.modone.block.custom.ModPressurePlateBlock;
-import net.duvis.modone.block.custom.ModStoneButtonBlock;
+import net.duvis.modone.block.custom.*;
 import net.minecraft.block.*;
 import net.duvis.modone.ModOne;
-import net.duvis.modone.block.custom.SpeedyBlock;
 import net.duvis.modone.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -57,6 +55,18 @@ public class ModBlocks {
     public static final Block MYTHRIL_WALL = registerBlock("mythril_wall",
             new WallBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.MYTHRIL);
 
+    public static final Block MYTHRIL_SLAB = registerBlock("mythril_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_STAIRS = registerBlock("mythril_stairs",
+            new ModStairsBlock(ModBlocks.MYTHRIL_BLOCK.getDefaultState(),
+                    FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block KAUPEN_DOOR = registerBlock("kaupen_door",
+            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).requiresTool().nonOpaque()), ModItemGroup.MYTHRIL);
+
+    public static final Block KAUPEN_TRAPDOOR = registerBlock("kaupen_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).requiresTool().nonOpaque()), ModItemGroup.MYTHRIL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);

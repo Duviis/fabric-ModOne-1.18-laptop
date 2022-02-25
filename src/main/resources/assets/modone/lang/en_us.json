@@ -19,6 +19,12 @@
   "block.modone.mythril_fence_gate": "Mythril Fence Gate",
   "block.modone.mythril_wall": "Mythril Wall",
 
+  "block.modone.mythril_slab": "Mythril Slab",
+  "block.modone.mythril_stairs": "Mythril Stairs",
+  "block.modone.kaupen_door": "Kaupen Door",
+  "block.modone.kaupen_trapdoor": "Kauppen Trapdoor",
+
+
   "itemGroup.modone.mythril":  "Mythril Tab",
 
   "item.modone.dowsing_rod.no_valuables": "No valuables found, Sucker!",

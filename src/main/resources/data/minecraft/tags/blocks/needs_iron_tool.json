@@ -5,6 +5,8 @@
     "modone:mythril_ore",
     "modone:deepslate_mythril_ore",
     "modone:netherrack_mythril_ore",
-    "modone:raw_mythril_block"
+    "modone:raw_mythril_block",
+    "modone:mythril_wall",
+    "modone:mythril_fence"
   ]
 }
