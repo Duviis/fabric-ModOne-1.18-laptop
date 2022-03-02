@@ -13,6 +13,17 @@
   "block.modone.raw_mythril_block":"Raw Mythril Block",
   "block.modone.speedy_block": "Speedy Block",
 
+  "item.modone.mythril_pickaxe": "Mythril Pickaxe",
+  "item.modone.mythril_axe": "Mythril Axe",
+  "item.modone.mythril_sword": "Mythril Sword",
+  "item.modone.mythril_shovel": "Mythril Shovel",
+  "item.modone.mythril_hoe": "Mythril Hoe",
+
+  "item.modone.mythril_helmet": "Mythril Helmet",
+  "item.modone.mythril_chestplate": "Mythril Chestplate",
+  "item.modone.mythril_leggings": "Mythril Leggings",
+  "item.modone.mythril_boots": "Mythril Boots",
+
   "block.modone.mythril_button": "Mythril Button",
   "block.modone.mythril_pressure_plate": "Mythril Pressure Plate",
   "block.modone.mythril_fence": "Mythril Fence",

@@ -18,5 +18,6 @@ public class ModOne implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModRegestries.registerModStuffs();
+
 	}
 }

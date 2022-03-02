@@ -10,6 +10,8 @@
     "modone:mythril_fence",
     "modone:mythril_fence_gate",
     "modone:mythril_pressure_plate",
-    "modone:mythril_wall"
+    "modone:mythril_wall",
+    "modone:mythril_stairs",
+    "modone:mythril_slab"
   ]
 }

@@ -63,10 +63,10 @@ public class ModBlocks {
                     FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.MYTHRIL);
 
     public static final Block KAUPEN_DOOR = registerBlock("kaupen_door",
-            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).requiresTool().nonOpaque()), ModItemGroup.MYTHRIL);
+            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.MYTHRIL);
 
     public static final Block KAUPEN_TRAPDOOR = registerBlock("kaupen_trapdoor",
-            new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).requiresTool().nonOpaque()), ModItemGroup.MYTHRIL);
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.MYTHRIL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);

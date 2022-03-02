@@ -7,6 +7,8 @@
     "modone:netherrack_mythril_ore",
     "modone:raw_mythril_block",
     "modone:mythril_wall",
-    "modone:mythril_fence"
+    "modone:mythril_fence",
+    "modone:mythril_stairs",
+    "modone:mythril_slab"
   ]
 }

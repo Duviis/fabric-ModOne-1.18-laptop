@@ -22,7 +22,7 @@
       "net.duvis.modone.ModOne"
     ],
 
-    "Client": [
+    "client": [
       "net.duvis.modone.ModOneClientMod"
     ]
   },
