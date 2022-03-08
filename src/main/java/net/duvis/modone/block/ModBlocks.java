@@ -7,6 +7,8 @@ import net.duvis.modone.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -68,6 +70,12 @@ public class ModBlocks {
     public static final Block KAUPEN_TRAPDOOR = registerBlock("kaupen_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.MYTHRIL);
 
+    public static final Block LILAC_FLOWER = registerBlock("lilac_flower",
+            new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 20, FabricBlockSettings.copy(Blocks.DANDELION).strength(4.0f).nonOpaque()), ModItemGroup.MYTHRIL);
+
+    public static final Block POTTED_LILAC_FLOWER = registerBlockWithoutBlockItem("potted_lilac_flower",
+            new FlowerPotBlock(ModBlocks.LILAC_FLOWER, FabricBlockSettings.copy(Blocks.POTTED_ALLIUM).nonOpaque()), ModItemGroup.MYTHRIL);
+
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);
         return Registry.register(Registry.BLOCK, new Identifier(ModOne.MOD_ID, name), block);
@@ -81,6 +89,12 @@ public class ModBlocks {
             }
                 });
     }
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group) {
+        return Registry.register(Registry.BLOCK, new Identifier(ModOne.MOD_ID, name), block);
+    }
+
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(ModOne.MOD_ID, name), block);
