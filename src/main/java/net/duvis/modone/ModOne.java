@@ -2,6 +2,7 @@ package net.duvis.modone;
 
 import net.duvis.modone.block.ModBlocks;
 import net.duvis.modone.item.ModItems;
+import net.duvis.modone.painting.ModPaintings;
 import net.duvis.modone.util.ModRegestries;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -18,6 +19,7 @@ public class ModOne implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModRegestries.registerModStuffs();
+		ModPaintings.registerPaintings();
 
 	}
 }
