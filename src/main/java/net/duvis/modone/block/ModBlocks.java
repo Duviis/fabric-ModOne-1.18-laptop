@@ -76,6 +76,13 @@ public class ModBlocks {
     public static final Block POTTED_LILAC_FLOWER = registerBlockWithoutBlockItem("potted_lilac_flower",
             new FlowerPotBlock(ModBlocks.LILAC_FLOWER, FabricBlockSettings.copy(Blocks.POTTED_ALLIUM).nonOpaque()), ModItemGroup.MYTHRIL);
 
+    public static final Block MYTHRIL_LAMP = registerBlock("mythril_lamp",
+            new MythrilLampBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()
+                    .luminance((state) -> state.get(MythrilLampBlock.CLICKED) ? 15 : 0)), ModItemGroup.MYTHRIL);
+
+
+
+
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);
         return Registry.register(Registry.BLOCK, new Identifier(ModOne.MOD_ID, name), block);
